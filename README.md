@@ -1,38 +1,29 @@
-
-<!-- Profile README -->
-
-<h1 align="center">Ayan Shaikh</h1>
 <p align="center">
-  <b>ML Engineer • AWS Certified • MSCS @ Indiana University</b><br/>
-  I build end-to-end AI systems—data → models → APIs → simple UIs—that ship.
+  <a href="https://github.com/ayansk11">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&repeat=false&random=false&width=500&height=30&lines=Ayan+Shaikh+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB" alt="ayansk11" /></a>
+
+  <b>MSCS @ Indiana University • AWS Certified </b><br/>
+
+  I build end-to-end AI systems
 </p>
 
-<p align="center">
-  <a href="https://ayansk11.github.io">Portfolio</a> •
-  <a href="https://www.linkedin.com/in/ayansk11">LinkedIn</a> •
-  <a href="mailto:hello.ayan.shaikh@gmail.com">Email</a> •
-  <a href="https://ayansk11.github.io/resume.pdf">Resume</a>
-</p>
+<b>MSCS @ Indiana University • AWS Certified </b><br/>
 
-<!-- Optional: keep a single, short typing banner -->
 <p align="center">
-  <img alt="Welcome to my Git Space"
-       src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&center=true&width=520&height=28&lines=I+turn+data+into+deployed+ML+products." />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=8D6EF7&center=true&repeat=false&random=false&width=500&height=30&lines=Hey+there+!!!+Welcome+to+my+Git+Space+" alt="welcomeHere" />
 </p>
-
-### What I do
-- Productionize ML: notebooks → pipelines → APIs (FastAPI) → monitoring
-- NLP & tabular modeling, light CV; solid with data engineering on AWS
-- Practical dashboards & lightweight frontends for demos
 
 ### Featured work
-- **[FinEdu.AI](https://github.com/ayansk11/FinEdu.AI)** – Financial literacy tutor. RAG + guardrails; pilot users; latency < 300ms P95.
-- **[Drug-Typology Ensemble](https://github.com/ayansk11/Drug-Typology-Based-on-Clinical-Profiles)** – Logistic Reg + RF + SVM voting; ↑F1 vs single models.
-- **[Brain-Tumor CNN](https://github.com/ayansk11/Brain-Tumor-Classification-Using-Convolutional-Neural-Network-CNN-)** – MRI classification; adds Grad-CAM explanations.
-- **[Data-Structures-in-C](https://github.com/ayansk11/DATA-STRUCTURES-IN-C)** – Clean, testable DS/Algos implementations.
+- **[Finistral AI — Financial Sentiment Analyst](https://huggingface.co/Ayansk11/Finistral-7B_lora)**  
+  Fine-tuned an open-source LLM with LoRA (updating ~0.2% params) to **99.56% accuracy / 0.9956 weighted-F1** on Financial PhraseBank; trained in ~2 hours on **2× A100** (IU Big Red 200) and released weights + Gradio demo.
 
-### Skills
-`Python` · `PyTorch` · `scikit-learn` · `FastAPI` · `SQL` · `Docker` · `AWS (S3, Lambda, ECS, SageMaker basics)` · `Streamlit/React basics`
+- **[FinEdu.AI — Financial Education Q&A (RAG)](https://github.com/ayansk11/FinEdu.AI)**  
+  Built RAG over a custom JSON corpus (≈80 terms) using Llama-2-7B + sentence-transformer embeddings (LangChain/LlamaIndex), with **8-bit quantization** to run locally on a **16 GB GPU**; interactive Gradio front end.
+
+- **(Work) LLM Customer-Support Chatbot @ OCG Technologies PTE.LTD.**  
+  Deployed multi-turn LLM FAQ bot with **RAG via AWS OpenSearch**; **+83% accuracy**, **+67% efficiency**, **95% CSAT**, and **−75% human support** through pipeline/monitoring optimizations (Llama-2-13B with LoRA/PEFT).
+
+- **[Brain-Tumor CNN](https://github.com/ayansk11/Brain-Tumor-Classification-Using-Convolutional-Neural-Network-CNN-)** – MRI classification; adds Grad-CAM explanations.
 
 ### Open to
-SWE/ML Engineer roles, research internships, and collabs on applied NLP/CV.
+SDE/ML Engineer roles, Research Internships, and collabs on applied NLP/CV.

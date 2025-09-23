@@ -14,6 +14,6 @@
 <p align="center">
   <a href="mailto:hello.ayansk152@gmail.com">Email</a> •
   <a href="https://www.linkedin.com/in/ayansk11">LinkedIn</a> •
-  <a href="https://huggingface.co/Ayansk11">HuggingFace</a> •
+  <a href="https://huggingface.co/Ayansk11">HuggingFace</a> 
 </p>
 

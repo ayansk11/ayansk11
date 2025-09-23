@@ -1,17 +1,15 @@
-<!-- profile README (clean + centered) -->
 
 <p align="center">
   <a href="https://github.com/ayansk11">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&center=true&repeat=false&width=620&height=28&lines=Ayan+Shaikh+—+ML+Engineer+%7C+MSCS+%40+Indiana+University+%7C+AWS+Certified" alt="Ayan Shaikh — ML Engineer" />
-  </a>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&repeat=false&random=false&width=500&height=30&lines=Ayan+Shaikh+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB" alt="ayansk11" /></a>
 </p>
 
 <p align="center">
-  I build end-to-end AI systems—data → models → APIs → simple UIs.
+  I build end-to-end AI systems
 </p>
 
 <p align="center">
-  <a href="mailto:hello.ayan.shaikh@gmail.com">Email</a> •
+  <a href="mailto:hello.ayansk152@gmail.com">Email</a> •
   <a href="https://www.linkedin.com/in/ayansk11">LinkedIn</a> •
   <a href="https://huggingface.co/Ayansk11">HuggingFace</a> •
   <a href="https://ayansk11.github.io/resume.pdf">Resume</a>

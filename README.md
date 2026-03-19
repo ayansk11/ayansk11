@@ -69,7 +69,7 @@
 
 | Role | Where | What |
 |------|-------|------|
-| **Research Assistant** (Cybersecurity AI) | Indiana University | LLM+RL adversarial agents, 13 model evaluations, HPC training on H100s |
+| **Research Assistant** (Cybersecurity AI) | Indiana University | Hierarchical LLM+RL red team agent for CybORG CAGE Challenge 4; 3-layer reward shaping; 13 LLM eval on H100s; [SPIE 2026 paper](https://spie.org/defense-security/presentation/Red-teaming-framework-for-evaluating-robustness-of-AI-enabled-security/14046-28) |
 | **Research Software Developer** | Indiana University | LLM annotation pipeline — 167K+ patents & 22K+ incidents labeled with ToT/SC |
 | **Software Developer - AI** | OCG Technologies, Singapore | Llama 2 chatbot with LoRA/PEFT on SageMaker, RAG with OpenSearch |
 | **Software Developer - Data** | Visual Labs, Mumbai | 3 TB drone imagery ETL with PySpark, OpenCV, Lambda, Power BI |
@@ -79,26 +79,13 @@
 ### Tech Stack
 
 ```text
-Languages       Python, C, SQL, JavaScript, HTML/CSS
-ML/DL           PyTorch, Reinforcement Learning (PPO), CNNs, Transformers
-LLMs            vLLM, LoRA/PEFT, RAG, LangGraph, Ollama, OpenAI API, Gemini API
-Cloud & Infra   AWS (SageMaker, Lambda, S3, DynamoDB, OpenSearch), SLURM/HPC
-Data            PySpark, Pandas, NumPy, OpenCV, Power BI
-Tools           Git, Docker, Weights & Biases, pytest, BeautifulSoup
+Languages       Python, C, P4, SQL, JavaScript, HTML/CSS
+ML/DL           PyTorch, PPO, GRPO, CNNs, Transformers, Curriculum Learning
+LLMs            vLLM, LoRA/QLoRA/PEFT, RAG, LangGraph, Ollama, llama.cpp, OpenAI API, Gemini API
+Infra           AWS (SageMaker, Lambda, S3, DynamoDB, OpenSearch), SLURM/HPC (H100), Docker
+Data            PySpark, Pandas, NumPy, OpenCV, Power BI, BeautifulSoup
+Tools           Git, Weights & Biases, pytest, Unsloth, HuggingFace Hub
 ```
-
----
-
-<div align="center">
-
-### GitHub Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=ayansk11&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ayansk11&theme=tokyonight&hide_border=true" height="165" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayansk11&layout=compact&theme=tokyonight&hide_border=true" height="150" />
-
-</div>
 
 ---
 

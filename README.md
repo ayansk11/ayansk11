@@ -21,9 +21,8 @@
 - Building a **hierarchical LLM + RL red team adversary** for autonomous penetration testing in the CybORG CAGE Challenge 4 enterprise network (9 subnets, 1 red vs 5 blue defenders + 48 green agents)
 - Designed a **3-layer reward shaping system** (negated opponent rewards + milestone bonuses + prerequisite penalties) to enable RL training from zero environment signal
 - Evaluated **13 LLMs** (0.6B–70B) across 4 inference backends on NVIDIA H100 GPUs — found that **no LLM achieves meaningful attack success zero-shot**, and model size does not correlate with performance
-- Built a **Cognitive Loop** with Tree-of-Thoughts deliberation (K=5 candidates), critic scoring, and reflection memory for explainable attack planning aligned to MITRE ATT&CK
-- **~15K lines of custom Python** | PPO with action masking | vLLM | Curriculum learning | SLURM/HPC on Big Red 200
-- Published: **AAAI 2025 & AI Magazine 2025**
+- PPO with action masking | vLLM | Curriculum learning | SLURM/HPC on Big Red 200
+
 
 ---
 

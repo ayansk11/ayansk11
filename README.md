@@ -9,7 +9,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayansk11)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/Ayansk11)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:hello.ayansk152@gmail.com)
-[![AWS](https://img.shields.io/badge/AWS_Certified_AI_Practitioner-232F3E?style=flat&logo=amazonwebservices&logoColor=white)](#)
+[![AWS](https://img.shields.io/badge/AWS_Certified_AI_Practitioner-232F3E?style=flat&logo=amazonwebservices&logoColor=white)](https://cp.certmetrics.com/amazon/en/public/verify/credential/4f1b937babf844b9b2d4a061d8283b3b)
 
 </div>
 

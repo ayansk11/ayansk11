@@ -2,7 +2,7 @@
 
 # Hey, I'm Ayan 👋
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8D6EF7&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=600&height=60&lines=Building+intelligent+systems+that+learn%2C+reason%2C+and+adapt.)](https://github.com/ayansk11)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=8D6EF7&center=true&vCenter=true&repeat=false&random=false&width=700&height=40&lines=Building+intelligent+systems+that+learn%2C+reason%2C+and+adapt.)](https://github.com/ayansk11)
 
 **MS Computer Science @ Indiana University, Bloomington**
 

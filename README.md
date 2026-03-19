@@ -33,31 +33,31 @@
 <td width="50%">
 
 **[Agentic Cybersec Threat Analyst](https://github.com/ayansk11/Agentic-Cybersec-Threat-Analyst)**
-<br>Multi-agent cybersecurity threat analysis system with MITRE ATT&CK RAG.
+<br>3-agent LangGraph pipeline that transforms raw CVEs into defense playbooks — ingests NVD, CISA KEV & OTX feeds, maps threats via hybrid RAG over 19K+ MITRE ATT&CK techniques, and auto-generates Sigma detection rules. FastAPI + React + Qdrant.
 
 **[FinSent-CoT](https://github.com/ayansk11/FinSent-CoT)**
-<br>Financial sentiment classification with Chain-of-Thought reasoning. SFT + GRPO training for on-device LLMs (0.5B–8B).
+<br>16,944-sample balanced dataset pairing financial texts with expert Chain-of-Thought reasoning distilled from Qwen3-235B on H100 GPUs. SFT + GRPO formats for on-device LLMs (0.5B–8B). Multi-stage QA with 15.5% rejection rate.
 
 **[DDoS Mitigation](https://github.com/ayansk11/ddos-mitigation)**
-<br>Multi-layer DDoS detection & mitigation using XDP/eBPF, P4 programmable switches & BGP FlowSpec/RTBH.
+<br>Three-tier defense-in-depth: XDP/eBPF kernel-level rate limiting (10M pps), P4 BMv2 in-network per-flow detection (1024 flows), and BGP FlowSpec/RTBH upstream blackholing. Tested on Jetstream2 with Mininet + FRR.
 
 **[Drug Typology Classification](https://github.com/ayansk11/Drug-Typology-Based-on-Clinical-Profiles)** ⭐ 8
-<br>ML drug classification using Logistic Regression, Random Forest, SVM & Voting Ensemble.
+<br>Comparative ML study — Logistic Regression, Random Forest, SVM & Voting Ensemble with precision-recall trade-off analysis for minimizing clinical false positives.
 
 </td>
 <td width="50%">
 
 **[FinSight](https://github.com/ayansk11/FinSight)**
-<br>Agentic financial document intelligence — multi-agent LangGraph system for SEC filing analysis with local Ollama inference.
+<br>Four specialized LangGraph agents (Document, Quantitative, Risk, Synthesis) dissect SEC filings (10-K, 10-Q, 8-K) with hierarchical PageIndex navigation. Local Ollama + Groq cloud fallback. FRED & Finnhub market data. 129 unit + 10 E2E tests.
 
 **[FinistralAI](https://github.com/ayansk11/FinistralAI_code)**
-<br>Finistral-7B-LoRA: Financial Sentiment Analysis using Parameter-Efficient Fine-Tuning.
+<br>Mistral-7B fine-tuned for financial sentiment with LoRA adapters (rank 16, alpha 32). BF16 precision, gradient checkpointing & DeepSpeed multi-GPU training. Published on HuggingFace Hub.
 
 **[Brain Tumor Classification (CNN)](https://github.com/ayansk11/Brain-Tumor-Classification-Using-Convolutional-Neural-Network-CNN-)** ⭐ 8
-<br>Deep learning for classifying brain tumor MRI scans into multiple categories.
+<br>CNN classifying brain tumor MRI scans into 4 categories (Glioma, Meningioma, Pituitary, No Tumor) across 7K+ images. End-to-end pipeline from Kaggle download to prediction.
 
 **[FinEdu.AI](https://github.com/ayansk11/FinEdu.AI)** ⭐ 13
-<br>Making financial literacy accessible with AI.
+<br>Conversational financial education assistant powered by LLaMA-2-7B with RAG over curated financial terminology. Gradio web UI with beginner-friendly explanations and real-world examples.
 
 </td>
 </tr>

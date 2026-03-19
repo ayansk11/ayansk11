@@ -31,26 +31,32 @@
 <tr>
 <td width="50%">
 
-**[FinEdu.AI](https://github.com/ayansk11/FinEdu.AI)** ⭐ 13
-<br>Making financial literacy accessible with AI. End-to-end financial education platform.
-
-**[FinSight](https://github.com/ayansk11/FinSight)**
-<br>Agentic financial document intelligence — multi-agent LangGraph system for SEC filing analysis with local Ollama inference.
-
 **[Agentic Cybersec Threat Analyst](https://github.com/ayansk11/Agentic-Cybersec-Threat-Analyst)**
 <br>Multi-agent cybersecurity threat analysis system with MITRE ATT&CK RAG.
 
-</td>
-<td width="50%">
+**[FinSent-CoT](https://github.com/ayansk11/FinSent-CoT)**
+<br>Financial sentiment classification with Chain-of-Thought reasoning. SFT + GRPO training for on-device LLMs (0.5B–8B).
 
-**[Brain Tumor Classification (CNN)](https://github.com/ayansk11/Brain-Tumor-Classification-Using-Convolutional-Neural-Network-CNN-)** ⭐ 8
-<br>Deep learning for classifying brain tumor MRI scans into multiple categories.
+**[DDoS Mitigation](https://github.com/ayansk11/ddos-mitigation)**
+<br>Multi-layer DDoS detection & mitigation using XDP/eBPF, P4 programmable switches & BGP FlowSpec/RTBH.
 
 **[Drug Typology Classification](https://github.com/ayansk11/Drug-Typology-Based-on-Clinical-Profiles)** ⭐ 8
 <br>ML drug classification using Logistic Regression, Random Forest, SVM & Voting Ensemble.
 
-**[DDoS Mitigation](https://github.com/ayansk11/ddos-mitigation)**
-<br>Multi-layer DDoS detection using XDP/eBPF, P4 programmable switches & BGP FlowSpec.
+</td>
+<td width="50%">
+
+**[FinSight](https://github.com/ayansk11/FinSight)**
+<br>Agentic financial document intelligence — multi-agent LangGraph system for SEC filing analysis with local Ollama inference.
+
+**[FinistralAI](https://github.com/ayansk11/FinistralAI_code)**
+<br>Finistral-7B-LoRA: Financial Sentiment Analysis using Parameter-Efficient Fine-Tuning.
+
+**[Brain Tumor Classification (CNN)](https://github.com/ayansk11/Brain-Tumor-Classification-Using-Convolutional-Neural-Network-CNN-)** ⭐ 8
+<br>Deep learning for classifying brain tumor MRI scans into multiple categories.
+
+**[FinEdu.AI](https://github.com/ayansk11/FinEdu.AI)** ⭐ 13
+<br>Making financial literacy accessible with AI.
 
 </td>
 </tr>

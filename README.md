@@ -198,6 +198,8 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=100&section=footer" width="100%" />
 
-*If it can learn, I can build it.*
+<br>
+
+### `If it can learn, I can build it.`
 
 </div>

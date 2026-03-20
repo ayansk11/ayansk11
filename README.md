@@ -8,10 +8,10 @@
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayansk11)&nbsp;
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Ayansk11)&nbsp;
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello.ayansk152@gmail.com)&nbsp;
-[![AWS Certified](https://img.shields.io/badge/AWS_Certified-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)](https://cp.certmetrics.com/amazon/en/public/verify/credential/4f1b937babf844b9b2d4a061d8283b3b)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/ayansk11)&nbsp;
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&labelColor=FFD21E)](https://huggingface.co/Ayansk11)&nbsp;
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge)](mailto:hello.ayansk152@gmail.com)&nbsp;
+[![AWS Certified](https://img.shields.io/badge/AWS_Certified-232F3E?style=for-the-badge)](https://cp.certmetrics.com/amazon/en/public/verify/credential/4f1b937babf844b9b2d4a061d8283b3b)
 
 </div>
 

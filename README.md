@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=180&section=header&text=Ayan%20Shaikh&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Building%20intelligent%20systems%20that%20learn,%20reason,%20and%20adapt&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=220&section=header&text=Ayan%20Shaikh&fontSize=42&fontColor=ffffff&fontAlignY=30&desc=Building%20intelligent%20systems%20that%20learn,%20reason,%20and%20adapt&descSize=16&descColor=8b949e&descAlignY=52&animation=fadeIn" width="100%" />
 
 <br>
 
@@ -8,10 +8,7 @@
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/ayansk11)&nbsp;
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&labelColor=FFD21E)](https://huggingface.co/Ayansk11)&nbsp;
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge)](mailto:hello.ayansk152@gmail.com)&nbsp;
-[![AWS Certified](https://img.shields.io/badge/AWS_Certified-232F3E?style=for-the-badge)](https://cp.certmetrics.com/amazon/en/public/verify/credential/4f1b937babf844b9b2d4a061d8283b3b)
+[`LinkedIn`](https://www.linkedin.com/in/ayansk11) · [`HuggingFace`](https://huggingface.co/Ayansk11) · [`Email`](mailto:hello.ayansk152@gmail.com) · [`AWS Certified`](https://cp.certmetrics.com/amazon/en/public/verify/credential/4f1b937babf844b9b2d4a061d8283b3b)
 
 </div>
 

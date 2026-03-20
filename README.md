@@ -179,6 +179,10 @@
 <td><code>AWS</code> <code>SageMaker</code> <code>Lambda</code> <code>S3</code> <code>DynamoDB</code> <code>OpenSearch</code> <code>SLURM/HPC (H100)</code> <code>Docker</code></td>
 </tr>
 <tr>
+<td align="center"><strong>Web / APIs</strong></td>
+<td><code>FastAPI</code> <code>React</code> <code>Streamlit</code> <code>Gradio</code></td>
+</tr>
+<tr>
 <td align="center"><strong>Data</strong></td>
 <td><code>PySpark</code> <code>Pandas</code> <code>NumPy</code> <code>OpenCV</code> <code>BeautifulSoup</code></td>
 </tr>

@@ -33,7 +33,7 @@
 <td width="50%">
 
 **[Agentic Cybersec Threat Analyst](https://github.com/ayansk11/Agentic-Cybersec-Threat-Analyst)**
-<br>3-agent LangGraph pipeline that transforms raw CVEs into defense playbooks — ingests NVD, CISA KEV & OTX feeds, maps threats via hybrid RAG over 19K+ MITRE ATT&CK techniques, and auto-generates Sigma detection rules. FastAPI + React + Qdrant.
+<br>3-agent LangGraph pipeline that transforms raw CVEs into defense playbooks - ingests NVD, CISA KEV & OTX feeds, maps threats via hybrid RAG over 19K+ MITRE ATT&CK techniques, and auto-generates Sigma detection rules. FastAPI + React + Qdrant.
 
 **[FinSent-CoT](https://github.com/ayansk11/FinSent-CoT)**
 <br>16,944-sample balanced dataset pairing financial texts with expert Chain-of-Thought reasoning distilled from Qwen3-235B on H100 GPUs. SFT + GRPO formats for on-device LLMs (0.5B–8B). Multi-stage QA with 15.5% rejection rate.

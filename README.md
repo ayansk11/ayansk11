@@ -27,9 +27,9 @@
 
 - Building a hierarchical **LLM + RL red team adversary** for autonomous penetration testing in the CybORG CAGE Challenge 4 enterprise network (9 subnets, 1 red vs 5 blue defenders + 48 green agents)
 - Designed a **3-layer reward shaping system** (negated opponent rewards + milestone bonuses + prerequisite penalties) to enable RL training from zero environment signal
-- Evaluated **13 LLMs** (0.6B–70B) across 4 inference backends on NVIDIA H100 GPUs — found that **no LLM achieves meaningful attack success zero-shot**, and model size does not correlate with performance
+- Evaluated **13 LLMs** (0.6B–70B) across 4 inference backends on NVIDIA H100 GPUs - found that **no LLM achieves meaningful attack success zero-shot**, and model size does not correlate with performance
 - PPO with action masking | vLLM | Curriculum learning | SLURM/HPC on Big Red 200
-- Presenting at [**SPIE Defense + Security 2026**](https://spie.org/defense-security/presentation/Red-teaming-framework-for-evaluating-robustness-of-AI-enabled-security/14046-28) — April 2026, National Harbor, MD
+- Presenting at [**SPIE Defense + Security 2026**](https://spie.org/defense-security/presentation/Red-teaming-framework-for-evaluating-robustness-of-AI-enabled-security/14046-28) - April 2026, National Harbor, MD
 
 <br>
 
@@ -46,7 +46,7 @@
 <div align="center">
 <strong><a href="https://github.com/ayansk11/Agentic-Cybersec-Threat-Analyst">Agentic Cybersec Threat Analyst</a></strong>
 <br><br>
-<p>3-agent LangGraph pipeline that transforms raw CVEs into defense playbooks — ingests NVD, CISA KEV & OTX feeds, maps threats via hybrid RAG over 19K+ MITRE ATT&CK techniques, and auto-generates Sigma detection rules. FastAPI + React + Qdrant.</p>
+<p>3-agent LangGraph pipeline that transforms raw CVEs into defense playbooks - ingests NVD, CISA KEV & OTX feeds, maps threats via hybrid RAG over 19K+ MITRE ATT&CK techniques, and auto-generates Sigma detection rules. FastAPI + React + Qdrant.</p>
 <p><code>LangGraph</code> <code>RAG</code> <code>MITRE ATT&CK</code> <code>FastAPI</code> <code>Qdrant</code></p>
 </div>
 </td>
@@ -132,19 +132,19 @@
 
 <table>
 <tr>
-<td width="30%" align="center"><strong>Research Assistant</strong><br><sub>Cybersecurity AI · Indiana University</sub></td>
-<td>Hierarchical LLM+RL red team adversary for CybORG CAGE Challenge 4 — RL controller hit <strong>8x heuristic baseline</strong> via custom 3-layer reward shaping; benchmarked 13 LLMs (0.6B–70B) across 4 backends on H100s; ~15K lines of Python · <a href="https://spie.org/defense-security/presentation/Red-teaming-framework-for-evaluating-robustness-of-AI-enabled-security/14046-28">SPIE 2026 paper</a></td>
+<td width="30%" align="center"><strong>Research Assistant - Cybersecurity AI</strong><br><sub> @ Indiana University, Kelley School of Business</sub></td>
+<td>Hierarchical LLM+RL red team adversary for CybORG CAGE Challenge 4 - RL controller hit <strong>8x heuristic baseline</strong> via custom 3-layer reward shaping; benchmarked 13 LLMs (0.6B–70B) across 4 backends on H100s; Presenting @ <a href="https://spie.org/defense-security/presentation/Red-teaming-framework-for-evaluating-robustness-of-AI-enabled-security/14046-28">SPIE 2026 paper</a></td>
 </tr>
 <tr>
-<td align="center"><strong>Research Software Developer</strong><br><sub>Indiana University</sub></td>
-<td>LLM annotation pipeline with Tree-of-Thoughts + Self-Consistency — labeled <strong>167K+ patent abstracts</strong> & <strong>22K+ AV disengagement incidents</strong> with 7-way classification using OpenAI & Gemini APIs</td>
+<td align="center"><strong>Research Assistant - Software Developer</strong><br><sub> @ Indiana University, Kelley School of Business</sub></td>
+<td>LLM annotation pipeline with Tree-of-Thoughts + Self-Consistency - labeled <strong>167K+ patent abstracts</strong> & <strong>22K+ AV disengagement incidents</strong> with 7-way classification using OpenAI & Gemini APIs</td>
 </tr>
 <tr>
-<td align="center"><strong>Software Developer — AI</strong><br><sub>OCG Technologies, Singapore</sub></td>
-<td>Fine-tuned Llama 2 chatbot with LoRA/PEFT on SageMaker — <strong>83% accuracy boost</strong>; RAG with OpenSearch for <strong>75% support overhead reduction</strong></td>
+<td align="center"><strong>Software Developer - AI</strong><br><sub> @ OCG Technologies, Singapore</sub></td>
+<td>Fine-tuned Llama 2 chatbot with LoRA/PEFT on SageMaker - <strong>83% accuracy boost</strong>; RAG with OpenSearch for <strong>75% support overhead reduction</strong></td>
 </tr>
 <tr>
-<td align="center"><strong>Software Developer — Data</strong><br><sub>Visual Labs, Mumbai</sub></td>
+<td align="center"><strong>Software Developer - Data</strong><br><sub> @ Visual Labs, Mumbai</sub></td>
 <td>3 TB drone imagery ETL pipeline — PySpark + OpenCV preprocessing, AWS Lambda orchestration, DynamoDB storage, Power BI dashboards; <strong>45% stakeholder outcome improvement</strong></td>
 </tr>
 </table>

@@ -35,113 +35,65 @@
 <tr>
 <td width="50%" valign="top">
 <br>
-
 <div align="center"><strong><a href="https://github.com/ayansk11/Agentic-Cybersec-Threat-Analyst">Agentic Cybersec Threat Analyst</a></strong></div>
 <br>
-
-<sub>3-agent LangGraph pipeline that transforms raw CVEs into defense playbooks — ingests NVD, CISA KEV & OTX feeds, maps threats via hybrid RAG over 19K+ MITRE ATT&CK techniques, and auto-generates Sigma detection rules. FastAPI + React + Qdrant.</sub>
-
-<br>
-
-`LangGraph` `RAG` `MITRE ATT&CK` `FastAPI` `Qdrant`
-
+<p>3-agent LangGraph pipeline that transforms raw CVEs into defense playbooks — ingests NVD, CISA KEV & OTX feeds, maps threats via hybrid RAG over 19K+ MITRE ATT&CK techniques, and auto-generates Sigma detection rules. FastAPI + React + Qdrant.</p>
+<p><code>LangGraph</code> <code>RAG</code> <code>MITRE ATT&CK</code> <code>FastAPI</code> <code>Qdrant</code></p>
 </td>
 <td width="50%" valign="top">
 <br>
-
 <div align="center"><strong><a href="https://github.com/ayansk11/FinSight">FinSight</a></strong></div>
 <br>
-
-<sub>Four specialized LangGraph agents (Document, Quantitative, Risk, Synthesis) dissect SEC filings (10-K, 10-Q, 8-K) with hierarchical PageIndex navigation. Local Ollama + Groq cloud fallback. FRED & Finnhub market data. 129 unit + 10 E2E tests.</sub>
-
-<br>
-
-`LangGraph` `Ollama` `SEC Filings` `Groq` `Finnhub`
-
+<p>Four specialized LangGraph agents (Document, Quantitative, Risk, Synthesis) dissect SEC filings (10-K, 10-Q, 8-K) with hierarchical PageIndex navigation. Local Ollama + Groq cloud fallback. FRED & Finnhub market data. 129 unit + 10 E2E tests.</p>
+<p><code>LangGraph</code> <code>Ollama</code> <code>SEC Filings</code> <code>Groq</code> <code>Finnhub</code></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <br>
-
 <div align="center"><strong><a href="https://github.com/ayansk11/FinSent-CoT">FinSent-CoT</a></strong></div>
 <br>
-
-<sub>16,944-sample balanced dataset pairing financial texts with expert Chain-of-Thought reasoning distilled from Qwen3-235B on H100 GPUs. SFT + GRPO formats for on-device LLMs (0.5B–8B). Multi-stage QA with 15.5% rejection rate.</sub>
-
-<br>
-
-`Qwen3-235B` `SFT` `GRPO` `H100` `Chain-of-Thought`
-
+<p>16,944-sample balanced dataset pairing financial texts with expert Chain-of-Thought reasoning distilled from Qwen3-235B on H100 GPUs. SFT + GRPO formats for on-device LLMs (0.5B–8B). Multi-stage QA with 15.5% rejection rate.</p>
+<p><code>Qwen3-235B</code> <code>SFT</code> <code>GRPO</code> <code>H100</code> <code>Chain-of-Thought</code></p>
 </td>
 <td width="50%" valign="top">
 <br>
-
 <div align="center"><strong><a href="https://github.com/ayansk11/FinistralAI_code">FinistralAI</a></strong></div>
 <br>
-
-<sub>Mistral-7B fine-tuned for financial sentiment with LoRA adapters (rank 16, alpha 32). BF16 precision, gradient checkpointing & DeepSpeed multi-GPU training. Published on HuggingFace Hub.</sub>
-
-<br>
-
-`Mistral-7B` `LoRA` `DeepSpeed` `BF16` `HuggingFace`
-
+<p>Mistral-7B fine-tuned for financial sentiment with LoRA adapters (rank 16, alpha 32). BF16 precision, gradient checkpointing & DeepSpeed multi-GPU training. Published on HuggingFace Hub.</p>
+<p><code>Mistral-7B</code> <code>LoRA</code> <code>DeepSpeed</code> <code>BF16</code> <code>HuggingFace</code></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <br>
-
 <div align="center"><strong><a href="https://github.com/ayansk11/ddos-mitigation">DDoS Mitigation</a></strong></div>
 <br>
-
-<sub>Three-tier defense-in-depth: XDP/eBPF kernel-level rate limiting (10M pps), P4 BMv2 in-network per-flow detection (1024 flows), and BGP FlowSpec/RTBH upstream blackholing. Tested on Jetstream2 with Mininet + FRR.</sub>
-
-<br>
-
-`XDP/eBPF` `P4` `BGP FlowSpec` `Mininet` `Jetstream2`
-
+<p>Three-tier defense-in-depth: XDP/eBPF kernel-level rate limiting (10M pps), P4 BMv2 in-network per-flow detection (1024 flows), and BGP FlowSpec/RTBH upstream blackholing. Tested on Jetstream2 with Mininet + FRR.</p>
+<p><code>XDP/eBPF</code> <code>P4</code> <code>BGP FlowSpec</code> <code>Mininet</code> <code>Jetstream2</code></p>
 </td>
 <td width="50%" valign="top">
 <br>
-
 <div align="center"><strong><a href="https://github.com/ayansk11/Brain-Tumor-Classification-Using-Convolutional-Neural-Network-CNN-">Brain Tumor Classification</a></strong> ★ 8</div>
 <br>
-
-<sub>CNN classifying brain tumor MRI scans into 4 categories (Glioma, Meningioma, Pituitary, No Tumor) across 7K+ images. End-to-end pipeline from Kaggle download to prediction.</sub>
-
-<br>
-
-`CNN` `TensorFlow` `Medical Imaging` `Kaggle`
-
+<p>CNN classifying brain tumor MRI scans into 4 categories (Glioma, Meningioma, Pituitary, No Tumor) across 7K+ images. End-to-end pipeline from Kaggle download to prediction.</p>
+<p><code>CNN</code> <code>TensorFlow</code> <code>Medical Imaging</code> <code>Kaggle</code></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <br>
-
 <div align="center"><strong><a href="https://github.com/ayansk11/Drug-Typology-Based-on-Clinical-Profiles">Drug Typology Classification</a></strong> ★ 8</div>
 <br>
-
-<sub>Comparative ML study — Logistic Regression, Random Forest, SVM & Voting Ensemble with precision-recall trade-off analysis for minimizing clinical false positives.</sub>
-
-<br>
-
-`Scikit-learn` `Random Forest` `SVM` `Clinical ML`
-
+<p>Comparative ML study — Logistic Regression, Random Forest, SVM & Voting Ensemble with precision-recall trade-off analysis for minimizing clinical false positives.</p>
+<p><code>Scikit-learn</code> <code>Random Forest</code> <code>SVM</code> <code>Clinical ML</code></p>
 </td>
 <td width="50%" valign="top">
 <br>
-
 <div align="center"><strong><a href="https://github.com/ayansk11/FinEdu.AI">FinEdu.AI</a></strong> ★ 13</div>
 <br>
-
-<sub>Conversational financial education assistant powered by LLaMA-2-7B with RAG over curated financial terminology. Gradio web UI with beginner-friendly explanations and real-world examples.</sub>
-
-<br>
-
-`LLaMA-2` `RAG` `Gradio` `Financial NLP`
-
+<p>Conversational financial education assistant powered by LLaMA-2-7B with RAG over curated financial terminology. Gradio web UI with beginner-friendly explanations and real-world examples.</p>
+<p><code>LLaMA-2</code> <code>RAG</code> <code>Gradio</code> <code>Financial NLP</code></p>
 </td>
 </tr>
 </table>

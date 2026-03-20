@@ -160,15 +160,19 @@
 <table>
 <tr>
 <td align="center"><strong>Languages</strong></td>
-<td><code>Python</code> <code>C</code> <code>P4</code> <code>SQL</code> <code>JavaScript</code> <code>HTML/CSS</code></td>
+<td><code>Python</code> <code>Java</code> <code>C</code> <code>SQL</code> <code>JavaScript</code> <code>P4</code> <code>HTML/CSS</code></td>
 </tr>
 <tr>
 <td align="center"><strong>ML / DL</strong></td>
-<td><code>PyTorch</code> <code>PPO</code> <code>GRPO</code> <code>CNNs</code> <code>Transformers</code> <code>Curriculum Learning</code></td>
+<td><code>PyTorch</code> <code>TensorFlow</code> <code>Scikit-learn</code> <code>CNNs</code> <code>XGBoost</code></td>
+</tr>
+<tr>
+<td align="center"><strong>RL</strong></td>
+<td><code>PPO</code> <code>GRPO</code> <code>GSPO</code> <code>ORPO</code> <code>Curriculum Learning</code> <code>Action Masking</code></td>
 </tr>
 <tr>
 <td align="center"><strong>LLMs</strong></td>
-<td><code>vLLM</code> <code>LoRA/QLoRA/PEFT</code> <code>RAG</code> <code>LangGraph</code> <code>Ollama</code> <code>llama.cpp</code> <code>OpenAI API</code> <code>Gemini API</code></td>
+<td><code>vLLM</code> <code>SFT</code> <code>PEFT</code> <code>LoRA/QLoRA</code> <code>RAG</code> <code>LangGraph</code> <code>Transformers</code> <code>Ollama</code> <code>llama.cpp</code> <code>OpenAI API</code> <code>Gemini API</code></td>
 </tr>
 <tr>
 <td align="center"><strong>Infra</strong></td>
@@ -176,11 +180,15 @@
 </tr>
 <tr>
 <td align="center"><strong>Data</strong></td>
-<td><code>PySpark</code> <code>Pandas</code> <code>NumPy</code> <code>OpenCV</code> <code>Power BI</code> <code>BeautifulSoup</code></td>
+<td><code>PySpark</code> <code>Pandas</code> <code>NumPy</code> <code>OpenCV</code> <code>BeautifulSoup</code></td>
+</tr>
+<tr>
+<td align="center"><strong>Visualization</strong></td>
+<td><code>Power BI</code> <code>Matplotlib</code> <code>Seaborn</code> <code>Altair</code></td>
 </tr>
 <tr>
 <td align="center"><strong>Tools</strong></td>
-<td><code>Git</code> <code>Weights & Biases</code> <code>pytest</code> <code>Unsloth</code> <code>HuggingFace Hub</code></td>
+<td><code>Git</code> <code>Weights & Biases</code> <code>DeepSpeed</code> <code>pytest</code> <code>Unsloth</code> <code>HuggingFace Hub</code></td>
 </tr>
 </table>
 

@@ -8,13 +8,16 @@
 
 <br>
 
-[`LinkedIn`](https://www.linkedin.com/in/ayansk11) · [`HuggingFace`](https://huggingface.co/Ayansk11) · [`Email`](mailto:hello.ayansk152@gmail.com) · [`AWS Certified`](https://cp.certmetrics.com/amazon/en/public/verify/credential/4f1b937babf844b9b2d4a061d8283b3b)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayansk11)&nbsp;
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Ayansk11)&nbsp;
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello.ayansk152@gmail.com)&nbsp;
+[![AWS Certified](https://img.shields.io/badge/AWS_Certified-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)](https://cp.certmetrics.com/amazon/en/public/verify/credential/4f1b937babf844b9b2d4a061d8283b3b)
 
 </div>
 
 <br>
 
-## 🔬 What I'm Working On
+## What I'm Working On
 
 > **Research Assistant — Cybersecurity AI** @ Indiana University, Kelley School of Business
 
@@ -22,11 +25,11 @@
 - Designed a **3-layer reward shaping system** (negated opponent rewards + milestone bonuses + prerequisite penalties) to enable RL training from zero environment signal
 - Evaluated **13 LLMs** (0.6B–70B) across 4 inference backends on NVIDIA H100 GPUs — found that **no LLM achieves meaningful attack success zero-shot**, and model size does not correlate with performance
 - PPO with action masking | vLLM | Curriculum learning | SLURM/HPC on Big Red 200
-- 📄 Presenting at [**SPIE Defense + Security 2026**](https://spie.org/defense-security/presentation/Red-teaming-framework-for-evaluating-robustness-of-AI-enabled-security/14046-28) — April 2026, National Harbor, MD
+- Presenting at [**SPIE Defense + Security 2026**](https://spie.org/defense-security/presentation/Red-teaming-framework-for-evaluating-robustness-of-AI-enabled-security/14046-28) — April 2026, National Harbor, MD
 
 <br>
 
-## 🚀 Featured Projects
+## Featured Projects
 
 <table>
 <tr>
@@ -102,7 +105,7 @@
 <td width="50%" valign="top">
 <br>
 
-<div align="center"><strong><a href="https://github.com/ayansk11/Brain-Tumor-Classification-Using-Convolutional-Neural-Network-CNN-">Brain Tumor Classification</a></strong> ⭐ 8</div>
+<div align="center"><strong><a href="https://github.com/ayansk11/Brain-Tumor-Classification-Using-Convolutional-Neural-Network-CNN-">Brain Tumor Classification</a></strong> ★ 8</div>
 <br>
 
 <sub>CNN classifying brain tumor MRI scans into 4 categories (Glioma, Meningioma, Pituitary, No Tumor) across 7K+ images. End-to-end pipeline from Kaggle download to prediction.</sub>
@@ -117,7 +120,7 @@
 <td width="50%" valign="top">
 <br>
 
-<div align="center"><strong><a href="https://github.com/ayansk11/Drug-Typology-Based-on-Clinical-Profiles">Drug Typology Classification</a></strong> ⭐ 8</div>
+<div align="center"><strong><a href="https://github.com/ayansk11/Drug-Typology-Based-on-Clinical-Profiles">Drug Typology Classification</a></strong> ★ 8</div>
 <br>
 
 <sub>Comparative ML study — Logistic Regression, Random Forest, SVM & Voting Ensemble with precision-recall trade-off analysis for minimizing clinical false positives.</sub>
@@ -130,7 +133,7 @@
 <td width="50%" valign="top">
 <br>
 
-<div align="center"><strong><a href="https://github.com/ayansk11/FinEdu.AI">FinEdu.AI</a></strong> ⭐ 13</div>
+<div align="center"><strong><a href="https://github.com/ayansk11/FinEdu.AI">FinEdu.AI</a></strong> ★ 13</div>
 <br>
 
 <sub>Conversational financial education assistant powered by LLaMA-2-7B with RAG over curated financial terminology. Gradio web UI with beginner-friendly explanations and real-world examples.</sub>
@@ -145,7 +148,7 @@
 
 <br>
 
-## 💼 Experience
+## Experience
 
 <table>
 <tr>
@@ -168,7 +171,7 @@
 
 <br>
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <table>
 <tr>

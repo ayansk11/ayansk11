@@ -168,7 +168,7 @@
 </tr>
 <tr>
 <td align="center"><strong>RL</strong></td>
-<td><code>PPO</code> <code>GRPO</code> <code>GSPO</code> <code>ORPO</code> <code>Curriculum Learning</code> <code>Action Masking</code></td>
+<td><code>PPO</code> <code>GRPO</code> <code>GSPO</code> <code>ORPO</code> <code>Curriculum Learning</code></td>
 </tr>
 <tr>
 <td align="center"><strong>LLMs</strong></td>

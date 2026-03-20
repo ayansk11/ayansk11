@@ -106,7 +106,7 @@
 <div align="center">
 <strong><a href="https://github.com/ayansk11/Drug-Typology-Based-on-Clinical-Profiles">Drug Typology Classification</a></strong> ★ 8
 <br><br>
-<p>Comparative ML study — Logistic Regression, Random Forest, SVM & Voting Ensemble with precision-recall trade-off analysis for minimizing clinical false positives.</p>
+<p>Comparative ML study - Logistic Regression, Random Forest, SVM & Voting Ensemble with precision-recall trade-off analysis for minimizing clinical false positives.</p>
 <p><code>Scikit-learn</code> <code>Random Forest</code> <code>SVM</code> <code>Clinical ML</code></p>
 </div>
 </td>
@@ -132,7 +132,7 @@
 
 <table>
 <tr>
-<td width="40%" align="center"><strong>Research Assistant - Cybersecurity AI</strong><br><sub> @ Indiana University, Kelley School of Business</sub></td>
+<td width="35%" align="center"><strong>Research Assistant - Cybersecurity AI</strong><br><sub> @ Indiana University, Kelley School of Business</sub></td>
 <td>Hierarchical LLM+RL red team adversary for CybORG CAGE Challenge 4 - RL controller hit <strong>8x heuristic baseline</strong> via custom 3-layer reward shaping; benchmarked 13 LLMs (0.6B–70B) across 4 backends on H100s; Presenting @ <a href="https://spie.org/defense-security/presentation/Red-teaming-framework-for-evaluating-robustness-of-AI-enabled-security/14046-28">SPIE 2026 paper</a></td>
 </tr>
 <tr>

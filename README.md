@@ -4,7 +4,7 @@
 
 <br>
 
-**MS Computer Science** · Indiana University, Bloomington
+**MS Computer Science**  @  Indiana University, Bloomington
 
 <br>
 
@@ -19,7 +19,7 @@
 
 ## 🔬 What I'm Working On
 
-> **Research Assistant — Cybersecurity AI** · Indiana University, Kelley School of Business
+> **Research Assistant — Cybersecurity AI** @ Indiana University, Kelley School of Business
 
 - Building a hierarchical **LLM + RL red team adversary** for autonomous penetration testing in the CybORG CAGE Challenge 4 enterprise network (9 subnets, 1 red vs 5 blue defenders + 48 green agents)
 - Designed a **3-layer reward shaping system** (negated opponent rewards + milestone bonuses + prerequisite penalties) to enable RL training from zero environment signal

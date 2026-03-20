@@ -1,159 +1,145 @@
 <div align="center">
 
-```
+# Hey, I'm Ayan 👋
 
-     █████╗ ██╗   ██╗ █████╗ ███╗   ██╗
-    ██╔══██╗╚██╗ ██╔╝██╔══██╗████╗  ██║
-    ███████║ ╚████╔╝ ███████║██╔██╗ ██║
-    ██╔══██║  ╚██╔╝  ██╔══██║██║╚██╗██║
-    ██║  ██║   ██║   ██║  ██║██║ ╚████║
-    ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=2000&color=58A6FF&center=true&vCenter=true&repeat=true&width=750&height=30&lines=Building+intelligent+systems+that+learn%2C+reason%2C+and+adapt!)](https://github.com/ayansk11)
 
-```
+**MS Computer Science** · Indiana University, Bloomington
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=14&duration=3000&pause=2000&color=88AAFF&center=true&vCenter=true&repeat=true&width=520&height=25&lines=building+intelligent+systems+that+learn%2C+reason%2C+and+adapt)](https://github.com/ayansk11)
-
-`ms computer science` · `indiana university, bloomington`
-
-[linkedin](https://www.linkedin.com/in/ayansk11) · [huggingface](https://huggingface.co/Ayansk11) · [email](mailto:hello.ayansk152@gmail.com) · [aws certified](https://cp.certmetrics.com/amazon/en/public/verify/credential/4f1b937babf844b9b2d4a061d8283b3b)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayansk11) &nbsp;
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/Ayansk11) &nbsp;
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:hello.ayansk152@gmail.com) &nbsp;
+[![AWS Certified](https://img.shields.io/badge/AWS_Certified-232F3E?style=flat&logo=amazonwebservices&logoColor=white)](https://cp.certmetrics.com/amazon/en/public/verify/credential/4f1b937babf844b9b2d4a061d8283b3b)
 
 </div>
 
-<br>
+---
 
-> **research assistant — cybersecurity ai** · indiana university, kelley school of business
->
-> building a hierarchical **llm + rl red team adversary** for autonomous penetration testing on the cyborg cage challenge 4 enterprise network — 9 subnets, 1 red vs 5 blue defenders + 48 green agents
->
-> ─
->
-> designed a **3-layer reward shaping system** to train rl from zero environment signal · evaluated **13 llms** (0.6b–70b) across 4 inference backends on nvidia h100 gpus — **no llm achieves meaningful attack success zero-shot** · ppo with action masking · vllm · curriculum learning · slurm/hpc on big red 200 · presenting at [spie defense + security 2026](https://spie.org/defense-security/presentation/Red-teaming-framework-for-evaluating-robustness-of-AI-enabled-security/14046-28)
+### What I'm Working On
 
-<br>
+**Research Assistant — Cybersecurity AI** · Indiana University, Kelley School of Business
 
-<div align="center">
+- Building a hierarchical **LLM + RL red team adversary** for autonomous penetration testing in the CybORG CAGE Challenge 4 enterprise network (9 subnets, 1 red vs 5 blue defenders + 48 green agents)
+- Designed a **3-layer reward shaping system** (negated opponent rewards + milestone bonuses + prerequisite penalties) to enable RL training from zero environment signal
+- Evaluated **13 LLMs** (0.6B–70B) across 4 inference backends on NVIDIA H100 GPUs — found that **no LLM achieves meaningful attack success zero-shot**, and model size does not correlate with performance
+- PPO with action masking | vLLM | Curriculum learning | SLURM/HPC on Big Red 200
+- Presenting at [**SPIE Defense + Security 2026**](https://spie.org/defense-security/presentation/Red-teaming-framework-for-evaluating-robustness-of-AI-enabled-security/14046-28) — April 2026, National Harbor, MD
 
-─────── **projects** ───────
+---
 
-</div>
-
-<br>
+### Featured Projects
 
 <table>
-<tr><td>
+<tr>
+<td width="50%" valign="top">
 
-**[agentic cybersec threat analyst](https://github.com/ayansk11/Agentic-Cybersec-Threat-Analyst)**
+**[Agentic Cybersec Threat Analyst](https://github.com/ayansk11/Agentic-Cybersec-Threat-Analyst)**
 
-3-agent langgraph pipeline — transforms raw cves into defense playbooks. ingests nvd, cisa kev & otx feeds, maps threats via hybrid rag over 19k+ mitre att&ck techniques, auto-generates sigma detection rules. fastapi + react + qdrant.
+3-agent LangGraph pipeline that transforms raw CVEs into defense playbooks — ingests NVD, CISA KEV & OTX feeds, maps threats via hybrid RAG over 19K+ MITRE ATT&CK techniques, and auto-generates Sigma detection rules. FastAPI + React + Qdrant.
 
-</td><td>
+</td>
+<td width="50%" valign="top">
 
-**[finsight](https://github.com/ayansk11/FinSight)**
+**[FinSight](https://github.com/ayansk11/FinSight)**
 
-four specialized langgraph agents (document, quantitative, risk, synthesis) dissect sec filings with hierarchical pageindex navigation. local ollama + groq cloud fallback. fred & finnhub market data. 129 unit + 10 e2e tests.
+Four specialized LangGraph agents (Document, Quantitative, Risk, Synthesis) dissect SEC filings (10-K, 10-Q, 8-K) with hierarchical PageIndex navigation. Local Ollama + Groq cloud fallback. FRED & Finnhub market data. 129 unit + 10 E2E tests.
 
-</td></tr>
-<tr><td>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**[finsent-cot](https://github.com/ayansk11/FinSent-CoT)**
+**[FinSent-CoT](https://github.com/ayansk11/FinSent-CoT)**
 
-16,944-sample balanced dataset — financial texts paired with expert chain-of-thought reasoning distilled from qwen3-235b on h100 gpus. sft + grpo formats for on-device llms (0.5b–8b). 15.5% rejection rate via multi-stage qa.
+16,944-sample balanced dataset pairing financial texts with expert Chain-of-Thought reasoning distilled from Qwen3-235B on H100 GPUs. SFT + GRPO formats for on-device LLMs (0.5B–8B). Multi-stage QA with 15.5% rejection rate.
 
-</td><td>
+</td>
+<td width="50%" valign="top">
 
-**[finistralai](https://github.com/ayansk11/FinistralAI_code)**
+**[FinistralAI](https://github.com/ayansk11/FinistralAI_code)**
 
-mistral-7b fine-tuned for financial sentiment with lora adapters (rank 16, alpha 32). bf16 precision, gradient checkpointing & deepspeed multi-gpu training. published on huggingface hub.
+Mistral-7B fine-tuned for financial sentiment with LoRA adapters (rank 16, alpha 32). BF16 precision, gradient checkpointing & DeepSpeed multi-GPU training. Published on HuggingFace Hub.
 
-</td></tr>
-<tr><td>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**[ddos mitigation](https://github.com/ayansk11/ddos-mitigation)**
+**[DDoS Mitigation](https://github.com/ayansk11/ddos-mitigation)**
 
-three-tier defense-in-depth — xdp/ebpf kernel-level rate limiting (10m pps), p4 bmv2 in-network per-flow detection (1024 flows), bgp flowspec/rtbh upstream blackholing. tested on jetstream2 with mininet + frr.
+Three-tier defense-in-depth: XDP/eBPF kernel-level rate limiting (10M pps), P4 BMv2 in-network per-flow detection (1024 flows), and BGP FlowSpec/RTBH upstream blackholing. Tested on Jetstream2 with Mininet + FRR.
 
-</td><td>
+</td>
+<td width="50%" valign="top">
 
-**[brain tumor classification](https://github.com/ayansk11/Brain-Tumor-Classification-Using-Convolutional-Neural-Network-CNN-)** ★ 8
+**[Brain Tumor Classification (CNN)](https://github.com/ayansk11/Brain-Tumor-Classification-Using-Convolutional-Neural-Network-CNN-)** ⭐ 8
 
-cnn classifying brain tumor mri scans into 4 categories across 7k+ images. end-to-end pipeline from kaggle download to prediction.
+CNN classifying brain tumor MRI scans into 4 categories (Glioma, Meningioma, Pituitary, No Tumor) across 7K+ images. End-to-end pipeline from Kaggle download to prediction.
 
-</td></tr>
-<tr><td>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**[drug typology classification](https://github.com/ayansk11/Drug-Typology-Based-on-Clinical-Profiles)** ★ 8
+**[Drug Typology Classification](https://github.com/ayansk11/Drug-Typology-Based-on-Clinical-Profiles)** ⭐ 8
 
-comparative ml study — logistic regression, random forest, svm & voting ensemble with precision-recall trade-off analysis for minimizing clinical false positives.
+Comparative ML study — Logistic Regression, Random Forest, SVM & Voting Ensemble with precision-recall trade-off analysis for minimizing clinical false positives.
 
-</td><td>
+</td>
+<td width="50%" valign="top">
 
-**[finedu.ai](https://github.com/ayansk11/FinEdu.AI)** ★ 13
+**[FinEdu.AI](https://github.com/ayansk11/FinEdu.AI)** ⭐ 13
 
-conversational financial education assistant powered by llama-2-7b with rag over curated financial terminology. gradio web ui with beginner-friendly explanations.
+Conversational financial education assistant powered by LLaMA-2-7B with RAG over curated financial terminology. Gradio web UI with beginner-friendly explanations and real-world examples.
 
-</td></tr>
+</td>
+</tr>
 </table>
 
-<br>
+---
+
+### Experience
+
+<table>
+<tr>
+<td width="30%"><strong>Research Assistant</strong><br><sub>Cybersecurity AI</sub></td>
+<td width="20%">Indiana University</td>
+<td>Hierarchical LLM+RL red team adversary for CybORG CAGE Challenge 4 — RL controller hit <strong>8x heuristic baseline</strong> via custom 3-layer reward shaping; benchmarked 13 LLMs (0.6B–70B) across 4 backends on H100s; ~15K lines of Python · <a href="https://spie.org/defense-security/presentation/Red-teaming-framework-for-evaluating-robustness-of-AI-enabled-security/14046-28">SPIE 2026 paper</a></td>
+</tr>
+<tr>
+<td><strong>Research Software Developer</strong></td>
+<td>Indiana University</td>
+<td>LLM annotation pipeline with Tree-of-Thoughts + Self-Consistency — labeled <strong>167K+ patent abstracts</strong> & <strong>22K+ AV disengagement incidents</strong> with 7-way classification using OpenAI & Gemini APIs</td>
+</tr>
+<tr>
+<td><strong>Software Developer — AI</strong></td>
+<td>OCG Technologies, Singapore</td>
+<td>Fine-tuned Llama 2 chatbot with LoRA/PEFT on SageMaker — <strong>83% accuracy boost</strong>; RAG with OpenSearch for <strong>75% support overhead reduction</strong></td>
+</tr>
+<tr>
+<td><strong>Software Developer — Data</strong></td>
+<td>Visual Labs, Mumbai</td>
+<td>3 TB drone imagery ETL pipeline — PySpark + OpenCV preprocessing, AWS Lambda orchestration, DynamoDB storage, Power BI dashboards; <strong>45% stakeholder outcome improvement</strong></td>
+</tr>
+</table>
+
+---
+
+### Tech Stack
+
+```text
+Languages       Python, C, P4, SQL, JavaScript, HTML/CSS
+ML/DL           PyTorch, PPO, GRPO, CNNs, Transformers, Curriculum Learning
+LLMs            vLLM, LoRA/QLoRA/PEFT, RAG, LangGraph, Ollama, llama.cpp, OpenAI API, Gemini API
+Infra           AWS (SageMaker, Lambda, S3, DynamoDB, OpenSearch), SLURM/HPC (H100), Docker
+Data            PySpark, Pandas, NumPy, OpenCV, Power BI, BeautifulSoup
+Tools           Git, Weights & Biases, pytest, Unsloth, HuggingFace Hub
+```
+
+---
 
 <div align="center">
 
-─────── **experience** ───────
-
-</div>
-
-<br>
-
-```
-  ╭──────────────────────────────────────────────────────────────────────╮
-  │  research assistant · cybersecurity ai              indiana univ.   │
-  │  ──────────────────────────────────────────────────────────────────  │
-  │  hierarchical llm+rl red team adversary · cyborg cage challenge 4   │
-  │  rl controller hit 8x heuristic baseline · 3-layer reward shaping   │
-  │  13 llms benchmarked on h100s · ~15k lines · spie 2026 paper        │
-  ├──────────────────────────────────────────────────────────────────────┤
-  │  research software developer                        indiana univ.   │
-  │  ──────────────────────────────────────────────────────────────────  │
-  │  llm annotation pipeline · tree-of-thoughts + self-consistency      │
-  │  167k+ patents & 22k+ av incidents · 7-way classification           │
-  ├──────────────────────────────────────────────────────────────────────┤
-  │  software developer · ai                    ocg tech, singapore     │
-  │  ──────────────────────────────────────────────────────────────────  │
-  │  llama 2 chatbot · lora/peft on sagemaker · 83% accuracy boost      │
-  │  rag with opensearch · 75% support overhead reduction               │
-  ├──────────────────────────────────────────────────────────────────────┤
-  │  software developer · data                  visual labs, mumbai     │
-  │  ──────────────────────────────────────────────────────────────────  │
-  │  3 tb drone imagery etl · pyspark + opencv · aws lambda             │
-  │  dynamodb · power bi · 45% stakeholder outcome improvement          │
-  ╰──────────────────────────────────────────────────────────────────────╯
-```
-
-<br>
-
-<div align="center">
-
-─────── **stack** ───────
-
-</div>
-
-<br>
-
-```
-  languages       python · c · p4 · sql · javascript
-  ml/dl           pytorch · ppo · grpo · cnns · transformers · curriculum learning
-  llms            vllm · lora/qlora/peft · rag · langgraph · ollama · llama.cpp
-  infra           aws (sagemaker · lambda · s3 · dynamodb · opensearch) · slurm/hpc · docker
-  data            pyspark · pandas · numpy · opencv · power bi
-  tools           git · weights & biases · pytest · unsloth · huggingface hub
-```
-
-<br>
-
-<div align="center">
-
-─
-
-*if it can learn, i can build it.*
+*If it can learn, I can build it.*
 
 </div>

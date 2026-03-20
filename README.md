@@ -69,10 +69,10 @@
 
 | Role | Where | What |
 |------|-------|------|
-| **Research Assistant** (Cybersecurity AI) | Indiana University | Hierarchical LLM+RL red team agent for CybORG CAGE Challenge 4; 3-layer reward shaping; 13 LLM eval on H100s; [SPIE 2026 paper](https://spie.org/defense-security/presentation/Red-teaming-framework-for-evaluating-robustness-of-AI-enabled-security/14046-28) |
-| **Research Software Developer** | Indiana University | LLM annotation pipeline — 167K+ patents & 22K+ incidents labeled with ToT/SC |
-| **Software Developer - AI** | OCG Technologies, Singapore | Llama 2 chatbot with LoRA/PEFT on SageMaker, RAG with OpenSearch |
-| **Software Developer - Data** | Visual Labs, Mumbai | 3 TB drone imagery ETL with PySpark, OpenCV, Lambda, Power BI |
+| **Research Assistant** (Cybersecurity AI) | Indiana University | Hierarchical LLM+RL red team adversary for CybORG CAGE Challenge 4 — RL controller hit 8x heuristic baseline via custom 3-layer reward shaping; benchmarked 13 LLMs (0.6B–70B) across 4 backends on H100s; ~15K lines of Python; [SPIE 2026 paper](https://spie.org/defense-security/presentation/Red-teaming-framework-for-evaluating-robustness-of-AI-enabled-security/14046-28) |
+| **Research Software Developer** | Indiana University | LLM annotation pipeline with Tree-of-Thoughts + Self-Consistency — labeled 167K+ patent abstracts & 22K+ AV disengagement incidents with 7-way classification using OpenAI & Gemini APIs |
+| **Software Developer - AI** | OCG Technologies, Singapore | Fine-tuned Llama 2 chatbot with LoRA/PEFT on SageMaker — 83% accuracy boost; RAG with OpenSearch for 75% support overhead reduction |
+| **Software Developer - Data** | Visual Labs, Mumbai | 3 TB drone imagery ETL pipeline — PySpark + OpenCV preprocessing, AWS Lambda orchestration, DynamoDB storage, Power BI dashboards; 45% stakeholder outcome improvement |
 
 ---
 

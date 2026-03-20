@@ -160,27 +160,27 @@
 <table>
 <tr>
 <td align="center"><strong>Languages</strong></td>
-<td align="center"><code>Python</code> <code>C</code> <code>P4</code> <code>SQL</code> <code>JavaScript</code> <code>HTML/CSS</code></td>
+<td><code>Python</code> <code>C</code> <code>P4</code> <code>SQL</code> <code>JavaScript</code> <code>HTML/CSS</code></td>
 </tr>
 <tr>
 <td align="center"><strong>ML / DL</strong></td>
-<td align="center"><code>PyTorch</code> <code>PPO</code> <code>GRPO</code> <code>CNNs</code> <code>Transformers</code> <code>Curriculum Learning</code></td>
+<td><code>PyTorch</code> <code>PPO</code> <code>GRPO</code> <code>CNNs</code> <code>Transformers</code> <code>Curriculum Learning</code></td>
 </tr>
 <tr>
 <td align="center"><strong>LLMs</strong></td>
-<td align="center"><code>vLLM</code> <code>LoRA/QLoRA/PEFT</code> <code>RAG</code> <code>LangGraph</code> <code>Ollama</code> <code>llama.cpp</code> <code>OpenAI API</code> <code>Gemini API</code></td>
+<td><code>vLLM</code> <code>LoRA/QLoRA/PEFT</code> <code>RAG</code> <code>LangGraph</code> <code>Ollama</code> <code>llama.cpp</code> <code>OpenAI API</code> <code>Gemini API</code></td>
 </tr>
 <tr>
 <td align="center"><strong>Infra</strong></td>
-<td align="center"><code>AWS</code> <code>SageMaker</code> <code>Lambda</code> <code>S3</code> <code>DynamoDB</code> <code>OpenSearch</code> <code>SLURM/HPC (H100)</code> <code>Docker</code></td>
+<td><code>AWS</code> <code>SageMaker</code> <code>Lambda</code> <code>S3</code> <code>DynamoDB</code> <code>OpenSearch</code> <code>SLURM/HPC (H100)</code> <code>Docker</code></td>
 </tr>
 <tr>
 <td align="center"><strong>Data</strong></td>
-<td align="center"><code>PySpark</code> <code>Pandas</code> <code>NumPy</code> <code>OpenCV</code> <code>Power BI</code> <code>BeautifulSoup</code></td>
+<td><code>PySpark</code> <code>Pandas</code> <code>NumPy</code> <code>OpenCV</code> <code>Power BI</code> <code>BeautifulSoup</code></td>
 </tr>
 <tr>
 <td align="center"><strong>Tools</strong></td>
-<td align="center"><code>Git</code> <code>Weights & Biases</code> <code>pytest</code> <code>Unsloth</code> <code>HuggingFace Hub</code></td>
+<td><code>Git</code> <code>Weights & Biases</code> <code>pytest</code> <code>Unsloth</code> <code>HuggingFace Hub</code></td>
 </tr>
 </table>
 

@@ -164,19 +164,51 @@
 
 <table>
 <tr>
-<td width="35%" align="center"><strong>Machine Learning Engineer</strong><br><sub> @ Indiana University, Kelley School of Business</sub></td>
-<td>Hierarchical LLM+RL red team agent for CybORG CAGE Challenge 4 - <strong>100% episode compromise vs 30% for the best of 14 LLMs</strong> (<a href="https://doi.org/10.1117/12.3094223">SPIE 2026</a>); cross-environment RL+RL vs LLM+LLM study over 3,600 episodes (IEEE MILCOM 2026 Workshop, accepted); LLM annotation pipeline with Tree-of-Thought + Self-Consistency labeling <strong>167K+ patent abstracts</strong> and <strong>22K+ AV disengagement incidents</strong></td>
+<td width="28%" align="center"><strong>Machine Learning Engineer</strong><br><sub>@ Indiana University, Kelley School of Business</sub><br><sub>Security & Defense Research Group</sub><br><sub>Oct 2025 – Present</sub></td>
+<td>
+<strong>Hierarchical LLM + RL red teaming</strong> · published, <a href="https://doi.org/10.1117/12.3094223">Proc. SPIE 14046 (2026)</a>, first author
+<ul>
+<li>Built a red-team agent for CybORG CAGE Challenge 4 that splits strategy from execution: a frozen LLM planner emits a structured attack intent every 20 steps, and a PPO actor-critic controller (state + intent encoders, prerequisite-aware action masking) picks one of 10 MITRE ATT&CK-aligned actions every step against the 5-agent H-MARL Expert defender</li>
+<li>Designed a 4-layer kill-chain reward (negated defender reward, milestone bonuses, prerequisite penalties, intent alignment) because the environment gives the attacker zero reward</li>
+<li><strong>100% episode compromise (200/200) vs 30% for the best of 14 standalone LLMs (0.6B–70B) and 0% for RL alone</strong>; Reflexion episodic memory held 99.5% success with 85% fewer attack actions (3,559 → 541)</li>
+<li>Traced a silent state-persistence bug that blocked privilege escalation across ~9,000 training episodes; the fix raised escalation attempts 19x</li>
+<li>Trained and served on H100s with vLLM 0.8.5, PyTorch 2.6, and SLURM on IU Big Red 200</li>
+</ul>
+<strong>Cross-environment planner–executor study</strong> · accepted, IEEE MILCOM 2026 Workshops, first author
+<ul>
+<li>Compared two-level RL+RL agents (PPO planner and executor, fixed / event / learned replanning) against LLM+LLM agents (gpt-oss-120b → 20b, Foundation-Sec-8B, DeepHat-7B) through one shared ⟨tactic, zone, risk⟩ intent interface</li>
+<li>18 configurations × 200 episodes = 3,600 episodes across CAGE 4 and ORNL Cyberwheel at 100 and 1010 hosts, scored with one disruption metric and recomputed from raw per-episode logs by an independent code path</li>
+<li><strong>Found an environment-dependent inversion:</strong> RL wins CAGE 4 (78.5% vs 18.0%) and 100-host Cyberwheel (81.0% vs 50.5%), while a cyber-pretrained LLM wins 1010-host Cyberwheel (55.0% vs 0.0%); kill-chain analysis places both failures at privilege escalation</li>
+<li>A plan-corruption probe showed the RL planner is not load-bearing on CAGE 4 (byte-identical executor behavior under remapped, shuffled, and random plans)</li>
+</ul>
+<strong>Simulation-to-emulation transfer</strong> · in progress
+<ul>
+<li>Porting the trained red agent from simulation to a high-fidelity network emulation against a hierarchical-RL Zero Trust defender, with an air-gapped llama.cpp planner and a snapshot-revert harness that restores a clean network every episode</li>
+<li>Audited red/blue observation separation and action-script fidelity; current work closes the gap to a scripted attacker with curiosity-driven exploration and eviction-aware belief tracking</li>
+</ul>
+<strong>LLM annotation pipeline</strong>
+<ul>
+<li>Labeled 167K+ autonomous-vehicle patent abstracts and 22K+ disengagement narratives into a 7-way subsystem taxonomy with Tree-of-Thought (K=5) and Self-Consistency (N=3) prompting and JSON-schema outputs on GPT-4o and Gemini 2.5 Pro</li>
+</ul>
+</td>
 </tr>
 <tr>
-<td align="center"><strong>Artificial Intelligence Intern</strong><br><sub> @ Interlinked Corp (Remote)</sub></td>
+<td align="center"><strong>Artificial Intelligence Intern</strong><br><sub>@ Interlinked Corp (Remote)</sub><br><sub>Mar 2026 – Jul 2026</sub></td>
 <td>Wildfire ignition-risk ML: diagnosed three data-leakage sources behind an AUC 0.994 model and rebuilt it into a calibrated LightGBM pipeline over a 1.9M-row H3 cell-week panel - <strong>honest held-out AUC 0.859, ECE 0.0037</strong>, served through a weekly FastAPI risk-zone API</td>
 </tr>
 <tr>
-<td align="center"><strong>Artificial Intelligence Engineer</strong><br><sub> @ OCG Technologies, Singapore</sub></td>
-<td>Fine-tuned Llama 2 13B chatbot with LoRA/PEFT on SageMaker - <strong>83% accuracy boost</strong>; RAG with OpenSearch for <strong>75% support overhead reduction</strong></td>
+<td align="center"><strong>Artificial Intelligence Engineer</strong><br><sub>@ OCG Technologies, Singapore</sub><br><sub>Jul 2023 – Jul 2024</sub></td>
+<td>
+<ul>
+<li>Deployed an LLM-powered FAQ chatbot for client support that handles multi-turn conversations, <strong>cutting human support overhead by 75% at 95% client satisfaction</strong></li>
+<li>Fine-tuned Llama 2 13B with LoRA/PEFT and instruction tuning on AWS SageMaker, using semantic clustering to deduplicate the S3-hosted FAQ training data: <strong>83% higher response accuracy</strong> and 67% more efficient training</li>
+<li>Integrated AWS OpenSearch retrieval-augmented generation so knowledge-base updates reached users immediately, without retraining the model</li>
+<li>Owned the inference pipeline and monitoring for the production SageMaker endpoint</li>
+</ul>
+</td>
 </tr>
 <tr>
-<td align="center"><strong>Data Engineer</strong><br><sub> @ Visual Labs, Mumbai</sub></td>
+<td align="center"><strong>Data Engineer</strong><br><sub>@ Visual Labs, Mumbai</sub><br><sub>Jun 2022 – Jun 2023</sub></td>
 <td>3 TB drone imagery ETL pipeline — PySpark + OpenCV preprocessing, AWS Lambda orchestration, DynamoDB storage, Power BI dashboards; <strong>45% stakeholder outcome improvement</strong></td>
 </tr>
 </table>
@@ -192,31 +224,43 @@
 <table>
 <tr>
 <td align="center"><strong>Languages</strong></td>
-<td><code>Python</code> <code>Java</code> <code>C</code> <code>SQL</code> <code>JavaScript/TypeScript</code> <code>P4</code> <code>HTML/CSS</code></td>
+<td><code>Python</code> <code>SQL</code> <code>Java</code> <code>C</code> <code>JavaScript/TypeScript</code> <code>P4</code> <code>HTML/CSS</code></td>
 </tr>
 <tr>
 <td align="center"><strong>ML / DL</strong></td>
-<td><code>PyTorch</code> <code>TensorFlow</code> <code>Scikit-learn</code> <code>LightGBM</code> <code>CNNs</code> <code>XGBoost</code></td>
+<td><code>PyTorch</code> <code>TensorFlow</code> <code>Scikit-learn</code> <code>LightGBM</code> <code>XGBoost</code> <code>CNNs</code> <code>Isotonic Calibration</code></td>
 </tr>
 <tr>
-<td align="center"><strong>RL</strong></td>
-<td><code>PPO</code> <code>GRPO</code> <code>GSPO</code> <code>DAPO</code> <code>Curriculum Learning</code> <code>CybORG</code> <code>Cyberwheel</code></td>
+<td align="center"><strong>Reinforcement Learning</strong></td>
+<td><code>PPO</code> <code>GRPO</code> <code>GSPO</code> <code>DAPO</code> <code>Action Masking</code> <code>Reward Shaping</code> <code>Curriculum Learning</code> <code>Hierarchical / Multi-Agent RL</code> <code>Reflexion</code> <code>CybORG CAGE 4</code> <code>ORNL Cyberwheel</code></td>
 </tr>
 <tr>
-<td align="center"><strong>LLMs</strong></td>
-<td><code>vLLM</code> <code>SFT</code> <code>PEFT</code> <code>LoRA/QLoRA</code> <code>RAG</code> <code>LangGraph</code> <code>Transformers</code> <code>Ollama</code> <code>llama.cpp</code> <code>OpenAI API</code> <code>Gemini API</code> <code>Claude API</code></td>
+<td align="center"><strong>LLM Training</strong></td>
+<td><code>SFT</code> <code>Instruction Tuning</code> <code>LoRA/QLoRA</code> <code>PEFT</code> <code>Knowledge Distillation</code> <code>Hugging Face Transformers</code> <code>TRL</code> <code>Unsloth</code> <code>GGUF Export</code></td>
 </tr>
 <tr>
-<td align="center"><strong>Infra</strong></td>
-<td><code>AWS</code> <code>SageMaker</code> <code>Lambda</code> <code>S3</code> <code>DynamoDB</code> <code>OpenSearch</code> <code>SLURM/HPC (H100, A100)</code> <code>Docker</code> <code>Railway</code> <code>Vercel</code></td>
+<td align="center"><strong>LLM Serving & Agents</strong></td>
+<td><code>vLLM</code> <code>llama.cpp</code> <code>Ollama</code> <code>LangGraph</code> <code>LlamaIndex</code> <code>RAG</code> <code>Qdrant</code> <code>BGE-M3 Hybrid Retrieval</code> <code>MCP</code> <code>Qwen-Agent</code> <code>Tree-of-Thought</code> <code>Self-Consistency</code> <code>Structured JSON Outputs</code></td>
+</tr>
+<tr>
+<td align="center"><strong>Models</strong></td>
+<td><code>gpt-oss-120b/20b</code> <code>Foundation-Sec-8B</code> <code>Qwen3</code> <code>Llama 2/3</code> <code>Mistral-7B</code> <code>Gemma</code> <code>GPT-4o</code> <code>Gemini 2.5 Pro</code> <code>Claude</code></td>
+</tr>
+<tr>
+<td align="center"><strong>Evaluation</strong></td>
+<td><code>Bootstrap CIs</code> <code>McNemar</code> <code>Benjamini-Hochberg</code> <code>Calibration (ECE, Brier)</code> <code>Leakage & Contamination Audits</code> <code>Ablations</code> <code>pytest</code></td>
+</tr>
+<tr>
+<td align="center"><strong>Cloud & HPC</strong></td>
+<td><code>AWS SageMaker</code> <code>Lambda</code> <code>S3</code> <code>DynamoDB</code> <code>OpenSearch</code> <code>SLURM</code> <code>NVIDIA H100/A100</code> <code>IU Big Red 200 & Quartz</code> <code>Docker</code> <code>Railway</code> <code>Vercel</code></td>
 </tr>
 <tr>
 <td align="center"><strong>Web / APIs</strong></td>
-<td><code>FastAPI</code> <code>React</code> <code>Streamlit</code> <code>Gradio</code></td>
+<td><code>FastAPI</code> <code>Pydantic v2</code> <code>React</code> <code>Streamlit</code> <code>Gradio</code></td>
 </tr>
 <tr>
 <td align="center"><strong>Data</strong></td>
-<td><code>PySpark</code> <code>Pandas</code> <code>NumPy</code> <code>OpenCV</code> <code>BeautifulSoup</code> <code>pdfplumber</code></td>
+<td><code>PySpark</code> <code>Pandas</code> <code>NumPy</code> <code>OpenCV</code> <code>PostgreSQL/PostGIS</code> <code>H3</code> <code>GTFS-Realtime</code> <code>Docling</code> <code>BeautifulSoup</code> <code>pdfplumber</code></td>
 </tr>
 <tr>
 <td align="center"><strong>Visualization</strong></td>
@@ -224,7 +268,7 @@
 </tr>
 <tr>
 <td align="center"><strong>Tools</strong></td>
-<td><code>Git</code> <code>Weights & Biases</code> <code>pytest</code> <code>Unsloth</code> <code>TRL</code> <code>HuggingFace Hub</code></td>
+<td><code>Git</code> <code>Weights & Biases</code> <code>Hugging Face Hub</code></td>
 </tr>
 </table>
 
